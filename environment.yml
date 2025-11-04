@@ -1,0 +1,16 @@
+name: hospital-readmissions
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - requests
+  - pip
+  - pip:
+      - imbalanced-learn
